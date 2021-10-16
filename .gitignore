@@ -1,3 +1,34 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@knaaga 
+knaaga
+/
+model-predictive-control
+Public
+1
+00
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+model-predictive-control/.gitignore
+@knaaga
+knaaga Initial commit
+Latest commit 6dbcdf2 2 days ago
+ History
+ 1 contributor
+55 lines (45 sloc)  566 Bytes
+   
 # Prerequisites
 *.d
 
@@ -30,3 +61,39 @@
 *.exe
 *.out
 *.app
+
+# silly macOS
+.DS_Store
+
+# build files
+build/*
+
+
+# Xcode
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+ide_profiles/xcode/Debug/
+ide_profiles/xcode/ExtendedKF.build/
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
